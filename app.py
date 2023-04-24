@@ -13,7 +13,7 @@ def handle_input():
         print()
         reminder = input("What would you like to be reminded about?: ")
 
-        add_reminder(reminder)
+        add_reminder(reminder, date, PoliteReminder)
         list_reminders()
     else:
         print("Invalid menu option")
