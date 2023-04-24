@@ -5,7 +5,7 @@ def list_reminders():
     f = open("reminders.csv", "r")
 
     print(e.ljust(32), end=' ')
-        print()
+    print()
 
 def add_reminder(text, date, ReminderClass):
     reminder = ReminderClass(text, date)
